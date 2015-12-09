@@ -8,14 +8,15 @@ if (adverb == null) {
 	adverb = "stormy"; 
 }
 
+
 madlib += adverb + " night. Local sources say ";
 
-var name = prompt(" give me a name, please"); 
-if (name == null) {
-	name = "Sarah";
+var dogname = prompt(" give me a dog name, please"); 
+if (dogname == null) {
+	dogname = "Sarah";
 }
 
-madlib += name + ("was caught in the dark. She was ");  
+madlib += dogname + ("was caught in the dark. She was ");  
 
 var emotion = prompt(" Please give me an emotion"); 
 if (emotion == null) {
@@ -43,7 +44,25 @@ if (family == null){
 	family = "Mom"; 
 }
 
-madlib = madlib + family + (" to tell her that she needed her to come pick him/her up to take her home "); 
+madlib = madlib + family + (" to tell her that she needed her to come pick him/her up to take her home. "); 
+
+
+
+var time = prompt ("Please tell me a time of day"); 
+if (time <= 800) { 
+	time = "Good Morning"; 
+} else if (time > 800 && time <= 1100) {
+	time = "Good Afternoon"; 
+} else if (time > 1100 && time <= 1500) {
+	time = "Good Evening"; 
+} else if (time > 1500 && time <= 2400) {
+	time = "Good Night"; 
+} else {time = "Good Day";}
+
+madlib = madlib + time 
+
+
+
 
 // Print the madlib to the console 
 console.log(madlib); 
