@@ -1,0 +1,37 @@
+
+h1 {
+	font-size: 1.5em; color:#00ff00; font-family: 'Shadows Into Light', cursive;
+} 
+
+li { 
+	font-size: 1em; color:#ff3399;	font-family: 'Shadows Into Light', cursive;
+}
+
+
+body{
+	background-color: #3333cc
+
+}
+
+button {
+
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+button:hover {
+	background-color:#5cbf2a;
+}
+button:active {
+	position:relative;
+	top:1px;
+
+}
